@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #EAEDED;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem;
+  }
+  
+  .logo img {
+    height: 110px;
+  }
+  
+  .search-box {
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  /* Accessories Section */
+  .accessories {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .accessories h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .accessory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  
+  .item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .item:hover {
+    transform: scale(1.03);
+  }
+  
+  .item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .item p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  
+  footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
